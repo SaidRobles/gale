@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="manejo.js"></script>
+
+
+
+</head>
+<body>
+  <div id="contenido">
+    <header> editor de imagenes</header>
+    <canvas id="micanvas" height="800" width="300"></canvas>
+    <div id="botones">
+      <button type="button" id="retaurar" name="button">restaurar imagen</button>
+      <button type="button"id="blanco_negro" name="button">blanco y negro</button>
+      <button type="button"id="invertir_color" name="button">invertir color</button>
+      <button type="button" id="sepia" name="button">sepia</button>
+      <button type="button" name="button">rojos</button>
+
+
+    </div>
+
+  </div>
+  <div id="canvasimg">
+    <img src='' id='canvasImginsite' />
+    <div id="controlesImagen">
+      <h2   style="color:#fff">haz clic derecho para guardar la imagen</h2>
+      <button type="button" id='cerrar_ventana'>cerrar ventana </button>
+
+
+    </div>
+
+  </div>
+
+
+</body>
+</html>
